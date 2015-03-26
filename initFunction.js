@@ -41,7 +41,7 @@ $(function(){
 		},
         urlRoot: "init_update"
 	});
-
+// add comment
 	APP.view.BuildView = Backbone.View.extend({
 		tagNAme: 'img',
 		initialize : function(){
