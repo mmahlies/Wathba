@@ -15,7 +15,6 @@ $(function(){
 		},
 		template : _.template($('#menu_values').html()),
 		render	 :	function(){
-
 						this.$el.html(this.template(this.model.toJSON()));
 						return this;
 		},
